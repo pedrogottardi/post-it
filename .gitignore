@@ -48,4 +48,4 @@ coverage/
 *.key
 *.crt
 *.p12
-*.pfx
+*.pfx*.apk
