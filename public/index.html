@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Post-it - Download</title>
+  <meta name="description" content="Baixe o Post-it - App de lembretes simples e elegante para Android">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    .container {
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+      padding: 40px;
+      max-width: 400px;
+      width: 100%;
+      text-align: center;
+    }
+    .logo { width: 80px; height: 80px; background: #facc15; border-radius: 16px; display: flex; align-items: center; justify-content: center; margin: 0 auto 24px; font-size: 40px; }
+    h1 { color: #1f2937; font-size: 28px; font-weight: 700; margin-bottom: 8px; }
+    .subtitle { color: #6b7280; margin-bottom: 32px; font-size: 16px; }
+    .version-badge { background: #fef3c7; color: #92400e; padding: 8px 16px; border-radius: 20px; font-size: 14px; font-weight: 600; display: inline-block; margin-bottom: 24px; }
+    .download-btn {
+      width: 100%; background: #facc15; border: 3px solid #1f2937; color: #1f2937;
+      padding: 16px 24px; border-radius: 12px; font-size: 18px; font-weight: 700;
+      cursor: pointer; transition: all 0.2s; text-decoration: none;
+      display: inline-flex; align-items: center; justify-content: center; gap: 12px;
+    }
+    .download-btn:hover { background: #eab308; transform: translateY(-2px); box-shadow: 0 4px 12px rgba(250,204,21,0.4); }
+    .download-btn:active { transform: translateY(0); }
+    .features { margin-top: 32px; padding-top: 24px; border-top: 1px solid #e5e7eb; }
+    .feature { display: flex; align-items: center; gap: 12px; padding: 12px 0; color: #4b5563; font-size: 14px; }
+    .feature svg { color: #facc15; flex-shrink: 0; }
+    .footer { margin-top: 32px; padding-top: 24px; border-top: 1px solid #e5e7eb; color: #9ca3af; font-size: 12px; }
+    .footer a { color: #f59e0b; text-decoration: none; }
+    .footer a:hover { text-decoration: underline; }
+    @media (prefers-color-scheme: dark) {
+      body { background: linear-gradient(135deg, #1f2937 0%, #374151 100%); }
+      .container { background: #374151; }
+      h1 { color: #f9fafb; } .subtitle { color: #9ca3af; }
+      .version-badge { background: #78350f; color: #fde68a; }
+      .download-btn { background: #facc15; border-color: #f9fafb; color: #1f2937; }
+      .download-btn:hover { background: #eab308; }
+      .feature { color: #d1d5db; }
+      .footer { color: #6b7280; } .footer a { color: #fbbf24; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">📌</div>
+    <h1>Post-it</h1>
+    <p class="subtitle">Lembretes simples e elegantes para Android</p>
+    <span class="version-badge" id="version">v1.0.0</span>
+
+    <a href="https://github.com/pedrogottardi/post-it/releases/latest/download/Post-It-1.0.0.apk" class="download-btn" id="downloadLink">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+        <polyline points="7 10 12 15 17 10"></polyline>
+        <line x1="12" y1="15" x2="12" y2="3"></line>
+      </svg>
+      Baixar APK (v1.0.0)
+    </a>
+
+    <div class="features">
+      <div class="feature"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg> Lembretes com data/hora</div>
+      <div class="feature"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg> Calendário visual mensal</div>
+      <div class="feature"><svg width="20" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline></svg> Backup/Importar JSON</div>
+      <div class="feature"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg> Notificações locais</div>
+    </div>
+
+    <div class="footer">
+      <p>Feito com carinho por <a href="https://github.com/pedrogottardi" target="_blank">Pedro Gottardi</a></p>
+      <p>Código aberto em <a href="https://github.com/pedrogottardi/post-it" target="_blank">GitHub</a></p>
+    </div>
+  </div>
+
+  <script>
+    const version = '1.0.0';
+    document.getElementById('version').textContent = 'v' + version;
+    document.getElementById('downloadLink').textContent = 'Baixar APK (v' + version + ')';
+    document.getElementById('downloadLink').href = 'https://github.com/pedrogottardi/post-it/releases/latest/download/Post-It-' + version + '.apk';
+  </script>
+</body>
+</html>
