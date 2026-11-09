@@ -14,7 +14,7 @@ App de lembretes simples, rápido e sem distrações para Android.
 
 **[Baixar APK mais recente →](https://github.com/pedrogottardi/post-it/releases/latest)**
 
-Ou acesse a página de download: **[https://pedrogottardi.github.io/post-it/](https://pedrogottardi.github.io/post-it/)**
+Ou acesse a página de download: **[https://post-it-gottardi.vercel.app](https://post-it-gottardi.vercel.app)**
 
 ## Instalação
 
