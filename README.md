@@ -24,7 +24,7 @@ Ou acesse a página de download: **[https://post-it-gottardi.vercel.app](https:/
 
 ## Auto-atualização
 
-O app verifica atualizações automaticamente ao abrir. Se houver nova versão, notifica e permite atualizar com um toque.
+O app verifica atualizações automaticamente (uma vez por dia) e avisa quando houver uma versão nova. Você também pode checar manualmente em **Ajustes → Checar atualizações**.
 
 ## Privacidade
 

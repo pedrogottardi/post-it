@@ -48,7 +48,9 @@ coverage/
 *.key
 *.crt
 *.p12
-*.pfx*.apk
+*.pfx
+*.apk
+*.aab
 
 # Dev config files (local only)
 package.json
