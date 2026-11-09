@@ -30,7 +30,6 @@ O app verifica atualizações automaticamente (uma vez por dia) e avisa quando h
 
 - **Zero coleta de dados** — Nada é enviado para servidores
 - **Armazenamento local** — Seus dados ficam apenas no seu aparelho
-- **Código aberto** — Auditoria completa em [GitHub](https://github.com/pedrogottardi/post-it)
 
 ---
 
