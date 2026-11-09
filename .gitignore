@@ -49,3 +49,13 @@ coverage/
 *.crt
 *.p12
 *.pfx*.apk
+
+# Dev config files (local only)
+package.json
+package-lock.json
+tsconfig.json
+next.config.ts
+postcss.config.mjs
+next-env.d.ts
+.eslintrc.json
+.prettierrc
