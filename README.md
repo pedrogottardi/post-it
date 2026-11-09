@@ -72,8 +72,6 @@
 # 3. Instale o APK e comece a usar!
 ```
 
-> **Alternativa:** Acesse a [página de download](https://post-it-gottardi.vercel.app) para QR Code e instruções visuais.
-
 ---
 
 ## 🔒 Privacidade em Primeiro Lugar
